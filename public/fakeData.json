@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Cafe Sunshine",
+      "address": "123 Main Street",
+      "city": "New York",
+      "rating": 4.5,
+      "cuisine": "American",
+      "phone": "(555) 123-4567",
+      "image": "https://example.com/cafe_sunshine.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Spice Garden",
+      "address": "456 Elm Street",
+      "city": "Los Angeles",
+      "rating": 4.2,
+      "cuisine": "Indian",
+      "phone": "(555) 987-6543",
+      "image": "https://example.com/spice_garden.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bella Italia",
+      "address": "789 Oak Avenue",
+      "city": "Chicago",
+      "rating": 4.7,
+      "cuisine": "Italian",
+      "phone": "(555) 246-8024",
+      "image": "https://example.com/bella_italia.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sushi Fusion",
+      "address": "101 Pine Street",
+      "city": "San Francisco",
+      "rating": 4.8,
+      "cuisine": "Japanese",
+      "phone": "(555) 135-7924",
+      "image": "https://example.com/sushi_fusion.jpg"
+    },
+    {
+      "id": 5,
+      "name": "El Ranchero",
+      "address": "222 Maple Avenue",
+      "city": "Miami",
+      "rating": 4.0,
+      "cuisine": "Mexican",
+      "phone": "(555) 456-7890",
+      "image": "https://example.com/el_ranchero.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Thai Orchid",
+      "address": "333 Cedar Street",
+      "city": "Seattle",
+      "rating": 4.6,
+      "cuisine": "Thai",
+      "phone": "(555) 678-9012",
+      "image": "https://example.com/thai_orchid.jpg"
+    }
+  ]
+  

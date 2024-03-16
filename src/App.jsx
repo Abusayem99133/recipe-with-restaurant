@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BsFillMoonStarsFill } from "react-icons/bs";
+
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1 className="text-5xl text-center mt-4 font-semibold text-purple-600 box p-4 ">
+        Restaurant in Down Site
+      </h1>
+      <hr />
+      <div className="mt-4 box flex justify-around">
+        <div className="flex items-center gap-4">
+          <h1 className="text-red-500 text-3xl font-semibold">Restart</h1>
+          <h2 className="text-green-500">
+            <BsFillMoonStarsFill />
+          </h2>
+        </div>
+        <div>
+          <input
+            className="bg-slate-200 rounded-full p-4 text-center"
+            type="text"
+            name=""
+            id=""
+            placeholder="Restart your life...!"
+          />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div
+        className=""
+        style={{ backgroundImage: "url ({https://iili.io/JX2heMN.jpg})" }}
+      >
+        <div></div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
